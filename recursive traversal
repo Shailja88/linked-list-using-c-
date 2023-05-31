@@ -1,0 +1,8 @@
+
+//traverseing a linked list recursive way
+void printlist(Node* head){
+    if(head==NULL)
+    return;
+    cout<<head->data;
+printlist(head->next);
+}
